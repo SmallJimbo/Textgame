@@ -5,4 +5,4 @@ print("****                                                 ****")
 print("*********************************************************")
 
 def start():
-    print(Its 11pm, you are getting ready "for" your night shit)
+    print("It's 2am")
