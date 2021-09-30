@@ -4,4 +4,5 @@ print("****               made by Dana & Axel               ****")
 print("****                                                 ****")
 print("*********************************************************")
 
-#comment
+def start():
+    print("It's 2am")
