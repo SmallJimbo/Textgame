@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ac97b9a-9840-4522-9548-7903db14d1c6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/Command.py" beforeDir="false" afterPath="$PROJECT_DIR$/commands/Command.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,7 @@
       <updated>1632994557066</updated>
       <workItem from="1632994561648" duration="448000" />
       <workItem from="1632995288196" duration="89000" />
+      <workItem from="1632995677627" duration="218000" />
     </task>
     <servers />
   </component>
@@ -57,5 +58,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

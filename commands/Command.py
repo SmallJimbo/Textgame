@@ -1,12 +1,13 @@
 from abc import abstractmethod
 
 class Command:
-    commandname = ""
+    commandname: str
+
 
     def __init__(self, name):
         commandname = name
 
-    def getName(self):
+    def getName(self) ->str:
         return self.commandname
 
 
