@@ -1,14 +1,14 @@
 from abc import abstractmethod
 
+
 class Command:
-    commandname = ""
+    commandName: str
 
     def __init__(self, name):
-        commandname = name
+        commandName = name
 
-    def getName(self):
-        return self.commandname
+    def getName(self) -> str:
+        return self.commandName
 
-
-@abstractmethod
-def execute(self):
+    @abstractmethod
+    def execute(self): pass
