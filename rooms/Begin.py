@@ -10,6 +10,6 @@ class Badkamer(rooms.Rooms.Base):
         return "Je komt in een badkamr terecht. Je ziet een kast en een lavabo."
 
     def do(self):
-        input("wat doe je ? ")
-        if input == "sterven":
-            print("Je valt plots dood. Hartaavnal. spijtig !")
+        text = input("wat doe je ? ")
+        if text == "sterven":
+            print("Je valt plots dood. Hartaanval. spijtig !")
