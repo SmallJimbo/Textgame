@@ -1,7 +1,7 @@
 import rooms.Rooms
 
 
-class Test(rooms.Rooms.Room):
+class Test(rooms.Rooms.Base):
 
     def __init__(self):
         super().__init__([])

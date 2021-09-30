@@ -1,5 +1,7 @@
-import rooms.TestRoom
+import rooms.Begin
 
 
 def start():
-   print(rooms.TestRoom.Test().getDescription())
+   kamer = rooms.Begin.Badkamer()
+   print(kamer.getDescription())
+   kamer.do()
