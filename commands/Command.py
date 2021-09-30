@@ -5,7 +5,7 @@ class Command:
     commandName: str
 
     def __init__(self, name):
-        commandName = name
+        self.commandName = name
 
     def getName(self) -> str:
         return self.commandName
